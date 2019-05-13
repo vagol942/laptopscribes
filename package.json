@@ -6,9 +6,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "parcel watch ./src/index.jsx --out-dir ./js",
-    "build": "parcel build ./src/index.jsx --out-dir ./js",
-    "live": "live-server ./"
+    "start": "parcel watch ./src/index.jsx --out-dir ./public/js",
+    "build": "parcel build ./src/index.jsx --out-dir ./public/js",
+    "live": "live-server ./public"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
